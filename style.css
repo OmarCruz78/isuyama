@@ -11,18 +11,70 @@ body{
     color:#333;
 }
 
-header{
-    min-height:100vh;
 
-    background:
-    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("https://i.ibb.co/nMbzcFwP/aves.jpg");
+header{
+    position:relative;
+    min-height:100vh;
+    overflow:hidden;
+    color:white;
+}
+
+.hero-slider{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.slide{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 1.5s ease;
 
     background-size:cover;
     background-position:center;
-
-    color:white;
 }
+
+.slide.active{
+    opacity:1;
+}
+
+.slide:nth-child(1){
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://i.ibb.co/nMbzcFwP/aves.jpg");
+}
+
+.slide:nth-child(2){
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://i.ibb.co/6cMtq6VN/atardecer.jpg");
+}
+
+.slide:nth-child(3){
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://i.ibb.co/4wq6Q8Qq/bosque.jpg");
+}
+
+.slide:nth-child(4){
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://i.ibb.co/fYw2FvT0/capibara.jpg");
+}
+
+nav,
+.hero{
+    position:relative;
+    z-index:2;
+}
+
+
+
+
 
 nav{
     display:flex;

@@ -54,18 +54,27 @@ header{
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
     url("https://i.ibb.co/j9zP9GJ8/sunset.jpg");
+    background-size:cover;
+    background-position:center 30%;
+
 }
 
 .slide:nth-child(3){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
     url("https://i.ibb.co/GQszvYYg/capibara.jpg");
+    background-size:cover;
+    background-position:center 30%;
+
 }
 
 .slide:nth-child(4){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
     url("https://i.ibb.co/Z1tpWMpN/aves.jpg");
+    background-size:cover;
+    background-position:center 30%;
+
 }
 
 nav,

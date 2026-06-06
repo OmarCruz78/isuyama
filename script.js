@@ -12,121 +12,169 @@ if (whatsappButton) {
     });
 }
 
-const translations={
-es:{
-heroTitle:"Flora y Fauna en el Río Tambopata",
+const translations = {
+
+es: {
+
+heroTitle: "Flora y Fauna en el Río Tambopata",
 
 heroDescription:
 "Explora la Amazonía de Madre de Dios con experiencias únicas observando aves, capibaras y caimanes.",
 
-reserveButton:"Reservar por WhatsApp",
+reserveButton: "Reservar por WhatsApp",
 
-servicesTitle:"Nuestros Tours",
+servicesTitle: "Nuestros Servicios",
 
-card1Title:"🚤 Paseo en bote",
+card1Title: "🏡 Hospedaje Familiar",
 
-card1Description:"Avistamiento de aves y tortugas.",
+card1Description:
+"Disfruta de una experiencia auténtica en un ambiente acogedor junto a una familia local en la ribera del río Tambopata.",
 
-card2Title:"🌅 Mirador natural",
+card3Title:
+"🌿 Excursión por el Río Tambopata",
 
-card2Description:"Disfruta de una espectacular puesta de sol.",
+card3Description:
+"Descubre la flora y fauna amazónica con caminatas y recorridos guiados en un entorno natural único.",
 
-card3Title:"🌳 Caminata en el bosque",
+card4Title:
+"🐊 Excursión al Lago Yacumama",
 
-card3Description:"Árboles gigantes y plantas medicinales.",
+card4Description:
+"Recorre el lago en bote y observa capibaras, caimanes, aves y la increíble biodiversidad de Madre de Dios.",
 
-card4Title:"🐊 Búsqueda de fauna",
+infoTitle:
+"Información General",
 
-card4Description:"Capibaras y caimanes en su hábitat natural."
+locationTitle:
+"📍 Ubicación",
+
+locationText:
+"Costa del Río Tambopata<br>Madre de Dios - Perú",
+
+scheduleTitle:
+"🕒 Horario",
+
+scheduleText:
+"2:30 PM - 7:30 PM",
+
+capacityTitle:
+"👥 Cupos",
+
+capacityText:
+"10 personas por día",
+
+contactTitle:
+"Reserva tu aventura",
+
+contactButton:
+"Hablar con Isuyama",
+
+footerText:
+"Flora y Fauna en el Río Tambopata"
 
 },
 
+en: {
 
-en:{
-
-heroTitle:"Wildlife Tours on the Tambopata River",
+heroTitle:
+"Wildlife Tours on the Tambopata River",
 
 heroDescription:
 "Explore the Amazon rainforest and enjoy unforgettable encounters with birds, capybaras and caimans.",
 
-reserveButton:"Book on WhatsApp",
+reserveButton:
+"Book on WhatsApp",
 
-servicesTitle:"Our Tours",
+servicesTitle:
+"Our Services",
 
-card1Title:"🚤 Boat Trip",
+card1Title:
+"🏡 Family Accommodation",
 
-card1Description:"Bird and turtle watching.",
+card1Description:
+"Enjoy an authentic experience with a local family on the banks of the Tambopata River.",
 
-card2Title:"🌅 Natural Viewpoint",
+card3Title:
+"🌿 Tambopata River Excursion",
 
-card2Description:"Enjoy an amazing sunset.",
+card3Description:
+"Discover Amazonian flora and fauna through guided walks and unique nature experiences.",
 
-card3Title:"🌳 Forest Walk",
+card4Title:
+"🐊 Yacumama Lake Excursion",
 
-card3Description:"Discover giant trees and medicinal plants.",
+card4Description:
+"Explore the lake by boat and observe capybaras, caimans and birds in their natural habitat.",
 
-card4Title:"🐊 Wildlife Search",
+infoTitle:
+"General Information",
 
-card4Description:"Observe capybaras and caimans in their natural habitat."
+locationTitle:
+"📍 Location",
+
+locationText:
+"Tambopata River Bank<br>Madre de Dios - Peru",
+
+scheduleTitle:
+"🕒 Schedule",
+
+scheduleText:
+"2:30 PM - 7:30 PM",
+
+capacityTitle:
+"👥 Capacity",
+
+capacityText:
+"10 people per day",
+
+contactTitle:
+"Book Your Adventure",
+
+contactButton:
+"Contact Isuyama",
+
+footerText:
+"Wildlife Tours on the Tambopata River"
 
 }
 
 };
-
-
 
 function changeLanguage(lang){
 
-document.getElementById("hero-title").innerText=
-translations[lang].heroTitle;
+document.getElementById("hero-title").innerHTML = translations[lang].heroTitle;
+document.getElementById("hero-description").innerHTML = translations[lang].heroDescription;
+document.getElementById("reserveButton").innerHTML = translations[lang].reserveButton;
 
-document.getElementById("hero-description").innerText=
-translations[lang].heroDescription;
+document.getElementById("services-title").innerHTML = translations[lang].servicesTitle;
 
-document.getElementById("reserveButton").innerText=
-translations[lang].reserveButton;
+document.getElementById("card1-title").innerHTML = translations[lang].card1Title;
+document.getElementById("card1-description").innerHTML = translations[lang].card1Description;
 
-document.getElementById("services-title").innerText=
-translations[lang].servicesTitle;
+document.getElementById("card3-title").innerHTML = translations[lang].card3Title;
+document.getElementById("card3-description").innerHTML = translations[lang].card3Description;
 
-document.getElementById("card1-title").innerText=
-translations[lang].card1Title;
+document.getElementById("card4-title").innerHTML = translations[lang].card4Title;
+document.getElementById("card4-description").innerHTML = translations[lang].card4Description;
 
-document.getElementById("card1-description").innerText=
-translations[lang].card1Description;
+document.getElementById("info-title").innerHTML = translations[lang].infoTitle;
 
-document.getElementById("card2-title").innerText=
-translations[lang].card2Title;
+document.getElementById("location-title").innerHTML = translations[lang].locationTitle;
+document.getElementById("location-text").innerHTML = translations[lang].locationText;
 
-document.getElementById("card2-description").innerText=
-translations[lang].card2Description;
+document.getElementById("schedule-title").innerHTML = translations[lang].scheduleTitle;
+document.getElementById("schedule-text").innerHTML = translations[lang].scheduleText;
 
-document.getElementById("card3-title").innerText=
-translations[lang].card3Title;
+document.getElementById("capacity-title").innerHTML = translations[lang].capacityTitle;
+document.getElementById("capacity-text").innerHTML = translations[lang].capacityText;
 
-document.getElementById("card3-description").innerText=
-translations[lang].card3Description;
+document.getElementById("contact-title").innerHTML = translations[lang].contactTitle;
 
-document.getElementById("card4-title").innerText=
-translations[lang].card4Title;
+document.getElementById("whatsappButton").innerHTML = translations[lang].contactButton;
 
-document.getElementById("card4-description").innerText=
-translations[lang].card4Description;
+document.getElementById("footer-text").innerHTML = translations[lang].footerText;
 
 }
-const boton = document.getElementById("botonReserva");
-
-if (boton) {
-
-    boton.addEventListener("click", () => {
-
-        window.open(
-            "https://wa.me/51931589482?text=Hola%20Isuyama,%20estoy%20interesado%20en%20sus%20tours%20en%20el%20río%20Tambopata.",
-            "_blank"
-        );
-    });
-};
-
 
 const slides = document.querySelectorAll(".slide");
 

@@ -1,0 +1,412 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f5f7f2;
+color:#333;
+}
+
+header{
+min-height:100vh;
+}
+
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("images/hero.jpg");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:20px 8%;
+    gap:20px;
+}
+
+
+
+
+
+nav ul{
+
+display:flex;
+gap:25px;
+
+list-style:none;
+}
+
+nav a{
+
+text-decoration:none;
+color:white;
+}
+
+.language-buttons{
+
+display:flex;
+gap:10px;
+}
+
+.language-buttons button{
+
+border:none;
+padding:10px 15px;
+
+background:#14853c;
+
+color:white;
+
+border-radius:8px;
+
+cursor:pointer;
+}
+
+.hero{
+
+height:80vh;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+}
+
+
+
+
+.hero h2{
+    font-size:clamp(2rem,5vw,4rem);
+}
+
+
+.hero p{
+    font-size:clamp(1rem,2vw,1.2rem);
+    width:90%;
+    max-width:800px;
+}
+
+
+
+.hero p{
+
+max-width:800px;
+
+line-height:1.8;
+
+font-size:1.2rem;
+}
+
+
+.btn{
+
+display:inline-block;
+
+padding:15px 30px;
+
+width:auto;
+
+max-width:90%;
+
+text-align:center;
+
+}
+
+
+
+section{
+
+padding:90px 10%;
+}
+
+section h2{
+
+text-align:center;
+
+color:#147a34;
+
+margin-bottom:50px;
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+}
+
+.card{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.info-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+}
+
+.info-card{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+#contact{
+
+text-align:center;
+}
+
+#whatsappButton{
+
+margin-top:20px;
+
+padding:18px 40px;
+
+background:#147a34;
+
+border:none;
+
+border-radius:50px;
+
+font-size:18px;
+
+color:white;
+
+cursor:pointer;
+}
+
+footer{
+
+background:#0c4b22;
+
+color:white;
+
+padding:40px;
+
+text-align:center;
+}
+
+.whatsapp{
+
+position:fixed;
+
+bottom:30px;
+
+right:30px;
+
+background:#25D366;
+
+padding:20px;
+
+border-radius:50%;
+
+font-size:30px;
+
+text-decoration:none;
+}
+
+@media(max-width:768px){
+
+nav{
+
+flex-direction:column;
+
+gap:20px;
+}
+
+.hero h2{
+
+font-size:2.5rem;
+}
+
+}
+```
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#f3f6f1;
+color:#333;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("images/hero.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h2{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+font-size:1.2rem;
+line-height:1.8;
+}
+
+.btn{
+margin-top:30px;
+background:#25D366;
+padding:18px 35px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+section h2{
+text-align:center;
+color:#147d35;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.info{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+text-align:center;
+}
+
+.info div{
+background:white;
+padding:40px;
+border-radius:20px;
+}
+
+#contacto{
+text-align:center;
+}
+
+#botonReserva{
+margin-top:20px;
+padding:20px 40px;
+background:#147d35;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+border-radius:50px;
+}
+
+footer{
+background:#0b4f21;
+padding:40px;
+color:white;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+right:30px;
+bottom:30px;
+background:#25D366;
+padding:20px;
+border-radius:50%;
+font-size:30px;
+text-decoration:none;
+}
+
+
+@media screen and (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:15px;
+    }
+
+}

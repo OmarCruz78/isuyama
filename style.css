@@ -45,25 +45,25 @@ header{
 .slide:nth-child(1){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("https://ibb.co/Pz3vw6vt");
+    url("https://i.ibb.co/Cpzfy4c0/hero.jpg");
 }
 
 .slide:nth-child(2){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("https://ibb.co/NgZxhVZ8");
+    url("https://i.ibb.co/j9zP9GJ8/sunset.jpg");
 }
 
 .slide:nth-child(3){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("https://ibb.co/9HwQ9KKR");
+    url("<img src="https://i.ibb.co/GQszvYYg/capibara.jpg");
 }
 
 .slide:nth-child(4){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("https://ibb.co/ZRV0rvjT");
+    url("https://i.ibb.co/Z1tpWMpN/aves.jpg"");
 }
 
 nav,

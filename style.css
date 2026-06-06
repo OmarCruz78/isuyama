@@ -57,13 +57,13 @@ header{
 .slide:nth-child(3){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("<img src="https://i.ibb.co/GQszvYYg/capibara.jpg");
+    url("https://i.ibb.co/GQszvYYg/capibara.jpg");
 }
 
 .slide:nth-child(4){
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("https://i.ibb.co/Z1tpWMpN/aves.jpg"");
+    url("https://i.ibb.co/Z1tpWMpN/aves.jpg");
 }
 
 nav,

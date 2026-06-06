@@ -44,6 +44,10 @@ header{
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
     url("https://i.ibb.co/Cpzfy4c0/hero.jpg");
+    background-size:cover;
+
+    /* mueve la imagen */
+    background-position:center 30%;
 }
 
 .slide:nth-child(2){

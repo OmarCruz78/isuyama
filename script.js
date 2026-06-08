@@ -194,5 +194,5 @@ function changeSlide(){
 
 }
 
-setInterval(changeSlide, 5000);
+setInterval(changeSlide, 7000);
 
